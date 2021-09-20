@@ -7,12 +7,6 @@
 
 import UIKit
 
-//tableView
-//Custom Cell
-//call API
-//open bews story
-//search
-
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
