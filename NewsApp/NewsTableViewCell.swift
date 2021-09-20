@@ -61,6 +61,11 @@ static let identifier = "NewsTableViewCell"
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        
+        newsTitleLabel.frame = CGRect(x: 10,
+                                      y: 0,
+                                      width: contentView.frame.size.width - 120,
+                                      height: contentView.frame.size.height/2)
     }
     
     override func prepareForReuse() {
